@@ -1,0 +1,37 @@
+{
+  "name": "devices-status",
+  "version": "1.0.0",
+  "description": "A hypothetical take-home exercise from Yellowbox to check devices online status.",
+  "main": "index.js",
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/asopian/coding-test-yellowbox.git"
+  },
+  "keywords": [
+    "node",
+    "yellowbox",
+    "interview"
+  ],
+  "author": "Antonius Sopian <antonius.sopian@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/asopian/coding-test-yellowbox/issues"
+  },
+  "homepage": "https://bitbucket.org/asopian/coding-test-yellowbox/src/main/README.md",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "msw": "^2.3.2",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}
